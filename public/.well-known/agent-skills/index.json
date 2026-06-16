@@ -1,0 +1,13 @@
+{
+  "skills": [
+    {
+      "name": "openclawemailskill",
+      "title": "OpenClaw Email Skill",
+      "description": "OpenClaw Email Skill: open, inspectable email campaign operations for agents.",
+      "install": "npx skills add openclawemailskill",
+      "skill_url": "https://openclawemailskill.com/skills/openclawemailskill/SKILL.md",
+      "markdown_url": "https://openclawemailskill.com/skill/index.md",
+      "homepage_url": "https://openclawemailskill.com/"
+    }
+  ]
+}

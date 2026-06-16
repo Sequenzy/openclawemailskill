@@ -1,0 +1,22 @@
+# OpenClaw Email Skill
+
+OpenClaw Email Skill is a skill package for open, inspectable email campaign operations for agents.
+
+Install:
+
+```bash
+npx skills add openclawemailskill
+```
+
+## Primary agent resources
+
+- Markdown index: https://openclawemailskill.com/index.md
+- Skill page: https://openclawemailskill.com/skill/index.md
+- Raw SKILL.md: https://openclawemailskill.com/skills/openclawemailskill/SKILL.md
+- Skill discovery JSON: https://openclawemailskill.com/.well-known/skills/index.json
+
+## Articles
+
+- How to Build an Agent-Ready OpenClaw Email Strategy: https://openclawemailskill.com/articles/agent-ready-email-strategy/index.md
+- The Practical OpenClaw Email Operations Playbook for AI Agents: https://openclawemailskill.com/articles/email-operations-playbook/index.md
+- OpenClaw Email Skill Audit Checklist: From Prompt to Production: https://openclawemailskill.com/articles/email-skill-audit-checklist/index.md
