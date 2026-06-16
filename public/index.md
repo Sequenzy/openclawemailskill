@@ -2,9 +2,9 @@
 
 openclawemailskill.com
 
-OpenClaw Email Skill for agents that work on email systems.
+Make campaign operations inspectable before an agent recommends changes.
 
-A compact skill for open, inspectable email campaign operations for agents, built for Codex, Hermes, OpenClaw, Claude Code, Cowork, Goose, Cursor, Windsurf, and other skill-aware agents. It gives agents intake questions, review gates, QA checks, and handoff formats for production email work.
+A provider-neutral email skill for teardown, migration, and reusable campaign playbooks where every assumption needs to stay visible.
 
 ## Install
 
@@ -12,16 +12,43 @@ A compact skill for open, inspectable email campaign operations for agents, buil
 npx skills add openclawemailskill
 ```
 
-Raw skill folder: `skills/openclawemailskill`
+## Operating Data
 
-## Use Cases
+- **6**: inspection passes
+- **12**: portable fields
+- **0**: black-box decisions
 
-- **Campaign teardown**: Give agents a bounded way to inspect inputs, propose changes, and surface approval points before anything reaches subscribers.
-- **Provider-neutral migration**: Give agents a bounded way to inspect inputs, propose changes, and surface approval points before anything reaches subscribers.
-- **Reusable email playbooks**: Give agents a bounded way to inspect inputs, propose changes, and surface approval points before anything reaches subscribers.
+## Inspectable campaign stack
 
-## Guides
+1. Audience source
+2. Message promise
+3. Provider fields
+4. QA evidence
+5. Migration notes
 
-- [How to Build an Agent-Ready OpenClaw Email Strategy](/articles/agent-ready-email-strategy/index.md)
-- [The Practical OpenClaw Email Operations Playbook for AI Agents](/articles/email-operations-playbook/index.md)
-- [OpenClaw Email Skill Audit Checklist: From Prompt to Production](/articles/email-skill-audit-checklist/index.md)
+## Scenarios
+
+### Campaign teardown
+
+Break an existing send into audience, offer, creative, exclusions, and result evidence.
+
+### Provider-neutral migration
+
+Translate workflow logic without binding the brief to one ESP.
+
+### Reusable playbook
+
+Create a repeatable checklist agents can reuse on future launches.
+
+## Operating Proof
+
+- **Best for**: Teams moving between tools or standardizing campaign reviews
+- **Primary artifact**: Open campaign spec with assumptions and missing evidence
+- **Stop condition**: Any recommendation that depends on unavailable platform state
+
+## Agent Resources
+
+- Markdown index: /index.md
+- Skill discovery JSON: /.well-known/skills/index.json
+- Raw SKILL.md: /skills/openclawemailskill/SKILL.md
+- Articles: /articles/
