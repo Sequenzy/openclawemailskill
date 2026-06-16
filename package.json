@@ -1,5 +1,5 @@
 {
-  "name": "openclaw-email",
+  "name": "openclawemailskill",
   "version": "0.1.0",
   "private": false,
   "description": "OpenClaw Email Skill: open, inspectable email campaign operations for agents.",
@@ -12,12 +12,12 @@
     "codex-skill",
     "email",
     "agents",
-    "openclaw-email"
+    "openclawemailskill"
   ],
   "skill": {
-    "name": "openclaw-email",
-    "path": "skills/openclaw-email",
-    "install": "npx skills add openclaw-email",
-    "githubInstall": "npx skills add polnikale/openclawemailskill --skill openclaw-email"
+    "name": "openclawemailskill",
+    "path": "skills/openclawemailskill",
+    "install": "npx skills add openclawemailskill",
+    "githubInstall": "npx skills add polnikale/openclawemailskill --skill openclawemailskill"
   }
 }

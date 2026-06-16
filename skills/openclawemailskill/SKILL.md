@@ -1,5 +1,5 @@
 ---
-name: openclaw-email
+name: openclawemailskill
 description: Use when Codex or another AI agent needs to plan, review, implement, audit, or improve email work focused on open, inspectable email campaign operations for agents. Triggers include requests about Campaign teardown, Provider-neutral migration, Reusable email playbooks, email briefs, email QA, subscriber journeys, production handoffs, approval gates, and agent-safe email operations.
 ---
 
