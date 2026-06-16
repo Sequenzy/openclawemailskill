@@ -17,7 +17,6 @@
   "skill": {
     "name": "openclawemailskill",
     "path": "skills/openclawemailskill",
-    "install": "npx skills add openclawemailskill",
-    "githubInstall": "npx skills add Sequenzy/openclawemailskill --skill openclawemailskill"
+    "install": "npx skills add openclawemailskill"
   }
 }

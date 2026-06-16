@@ -6,7 +6,6 @@ Install shortcut:
 
 ```bash
 npx skills add openclawemailskill
-npx skills add Sequenzy/openclawemailskill --skill openclawemailskill
 ```
 
 Raw skill folder: `skills/openclawemailskill`
