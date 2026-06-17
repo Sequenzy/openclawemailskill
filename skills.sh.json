@@ -1,0 +1,13 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "notGrouped": "bottom",
+  "groupings": [
+    {
+      "title": "Open Email Operations",
+      "description": "Inspectable, provider-neutral email playbooks for OpenClaw-style agents.",
+      "skills": [
+        "openclawemailskill"
+      ]
+    }
+  ]
+}
